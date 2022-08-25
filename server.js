@@ -12,7 +12,7 @@ const path = require('path');
 
 //Setting up folders for route files and importing
 const apiRoutes = require('./routes/api');
-const htmlRouts = require('./routes/html');
+const htmlRoutes = require('./routes/html');
 
 //handle URL encoding with middleware
 app.use(express.urlencoded({extended: true}));
@@ -23,8 +23,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 //connecting the routes to express
-app.use('/api', api);
-app.use('/', html);
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 app.listen(PORT, () => {
     //console information

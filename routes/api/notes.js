@@ -5,7 +5,7 @@ const {notes} = require('../../db/db.json'); //Found some information on sharing
 
 //Create new notes
 const {
-    noteCreateNewNote, noteCreateNew
+     noteCreateNew
 } = require('../../lib/noteFunc');
 
 //saving notes history to json db
