@@ -1,5 +1,6 @@
 //Importing a new router
-const rouuter = require('express').Router();
+const express = require('express');
+const rouuter = express.Router();
 
 const router = require('../html');
 //Importing notes router

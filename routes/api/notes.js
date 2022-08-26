@@ -1,5 +1,6 @@
 //Importing the router
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
 //Initializing the db call and adding to the notes variable.
 const {
     notes
