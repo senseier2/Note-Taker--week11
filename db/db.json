@@ -1,43 +1,49 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text"
-    },
-    {
-      "title": "TEST note",
-      "text": "testing the notes\n",
-      "id": "1"
-    },
-    {
       "title": "This is a new note",
       "text": "TESTING THE NOTES AGAIN",
-      "id": "2"
+      "id": "1"
     },
     {
       "title": "Try again",
       "text": "twice more\n",
-      "id": "3"
+      "id": "2"
     },
     {
       "title": "One Piece ",
       "text": "Luffy\n",
-      "id": "4"
+      "id": "3"
     },
     {
       "title": "when will",
       "text": "I learn :D",
-      "id": "5"
+      "id": "4"
     },
     {
       "title": "hey huh",
       "text": "what",
-      "id": "6"
+      "id": "5"
     },
     {
       "title": "please",
       "text": "figure this out\n",
+      "id": "6"
+    },
+    {
+      "title": "Party",
+      "text": "I'm sure this is getting close\n",
       "id": "7"
+    },
+    {
+      "title": "Mistakes were made",
+      "text": "Indeed they were",
+      "id": "8"
+    },
+    {
+      "title": "Finale Tests",
+      "text": "I can't believe I declared the router twice",
+      "id": "9"
     }
   ]
 }
