@@ -16,11 +16,12 @@ const htmlRoutes = require('./routes/html');
 
 //handle URL encoding with middleware
 app.use(express.urlencoded({extended: true}));
-//handle URL json using express
-app.use(express.json());
+
 
 //Setting up static files for use of the public folder
 app.use(express.static('public'));
+//handle URL json using express
+app.use(express.json());
 
 //connecting the routes to express
 app.use('/api', apiRoutes);
